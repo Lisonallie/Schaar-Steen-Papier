@@ -6,8 +6,12 @@ const computer = document.getElementById("computer");
 const reset = document.getElementById("reset");
 
 
+function getComputerChoice() {
+    const choices = ['rock', 'paper', 'scissors'];
+}
+
 function game(userChoice) {
-    console.log("hoopla" + userChoice);
+    
 }
 
 function main() {
