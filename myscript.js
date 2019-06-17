@@ -13,7 +13,7 @@ function getComputerChoice() {
 }
 
 function win(userChoice, computerChoice) {
-    result.innerHTML = userChoice + "beats" + computerChoice + "You win!";
+    result.innerHTML = userChoice + " beats " + computerChoice + ". You win!";
 }
 
 function lose() {
