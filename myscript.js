@@ -15,6 +15,11 @@ function getComputerChoice() {
 function game(userChoice) {
     const computerChoice = getComputerChoice();
     switch (userChoice + computerChoice) {
+        case "rockscissors":
+        case "paperrock":
+        case "scissorspaper":
+        console.log("user wins!");
+        break;
         
     }
 }
