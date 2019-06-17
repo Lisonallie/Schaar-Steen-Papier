@@ -8,7 +8,9 @@ const reset = document.getElementById("reset");
 
 function getComputerChoice() {
     const choices = ['rock', 'paper', 'scissors'];
+    const randomNumber = Math.floor(Math.random() * 3);
 }
+getComputerChoice();
 
 function game(userChoice) {
     
