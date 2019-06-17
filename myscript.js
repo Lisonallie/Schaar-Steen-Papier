@@ -5,6 +5,11 @@ const scissors = document.getElementById("scissors");
 const computer = document.getElementById("computer");
 const reset = document.getElementById("reset");
 
+function convertToWord(word) {
+    if (word === "rock") return "Rock";
+    if (word === "paper") return "Paper";
+    if (word === "scissors") return "Scissors";
+}
 
 function getComputerChoice() {
     const choices = ['rock', 'paper', 'scissors'];
@@ -13,7 +18,7 @@ function getComputerChoice() {
 }
 
 function win(userChoice, computerChoice) {
-    result.innerHTML = userChoice + " beats " + computerChoice + ". You win!";
+    result.innerHTML = convertToWord(userChoice) + " beats " + convertToWord(computerChoice) + ". You win!";
 }
 
 function lose() {
