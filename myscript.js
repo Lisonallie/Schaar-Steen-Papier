@@ -18,9 +18,19 @@ function game(userChoice) {
         case "rockscissors":
         case "paperrock":
         case "scissorspaper":
-        console.log("user wins!");
-        break;
-        
+            wins()
+            break;
+        case "rockpaper":
+        case "paperscissors":
+        case "scissorsrock":
+            
+            break;
+
+        case "rockrock":
+        case "paperpaper":
+        case "scissorsscissors":
+            
+            break;
     }
 }
 
