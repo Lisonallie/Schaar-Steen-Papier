@@ -19,14 +19,16 @@ function getComputerChoice() {
 
 function win(userChoice, computerChoice) {
     result.innerHTML = convertToWord(userChoice) + " beats " + convertToWord(computerChoice) + ". You win!";
+// THE ES6 WAY
+//result.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win!`;
 }
 
-function lose() {
-    
+function lose(userChoice, computerChoice) {
+    result.innerHTML = convertToWord(userChoice) + " beats " + convertToWord(computerChoice) + "... You lose.";
 }
 
-function tie() {
-    
+function tie(userChoice, computerChoice) {
+    result.innerHTML = convertToWord(userChoice) + " beats " + convertToWord(computerChoice) + ". It's a draw.";
 }
 
 function game(userChoice) {
