@@ -6,8 +6,8 @@ const computer = document.getElementById("computer");
 const reset = document.getElementById("reset");
 
 
-function game() {
-    
+function game(userChoice) {
+
 }
 
 function main() {
@@ -23,3 +23,5 @@ function main() {
         game("scissors");
     })
 }
+
+main();
