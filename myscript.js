@@ -12,16 +12,16 @@ function getComputerChoice() {
     return choices[randomNumber];
 }
 
-function win() {
-
+function win(userChoice, computerChoice) {
+    result.innerHTML = userChoice + "beats" + computerChoice + "You win!";
 }
 
 function lose() {
-
+    
 }
 
 function tie() {
-
+    
 }
 
 function game(userChoice) {
@@ -30,17 +30,17 @@ function game(userChoice) {
         case "rockscissors":
         case "paperrock":
         case "scissorspaper":
-            win();
+            win(userChoice, computerChoice);
             break;
         case "rockpaper":
         case "paperscissors":
         case "scissorsrock":
-            lose();
+            lose(userChoice, computerChoice);
             break;
         case "rockrock":
         case "paperpaper":
         case "scissorsscissors":
-            tie();
+            tie(userChoice, computerChoice);
             break;
     }
 }
