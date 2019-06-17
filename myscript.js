@@ -7,7 +7,7 @@ const reset = document.getElementById("reset");
 
 
 function game(userChoice) {
-
+    console.log("hoopla" + userChoice);
 }
 
 function main() {
