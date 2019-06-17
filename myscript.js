@@ -4,3 +4,22 @@ const paper = document.getElementById("paper");
 const scissors = document.getElementById("scissors");
 const computer = document.getElementById("computer");
 const reset = document.getElementById("reset");
+
+
+function game() {
+    
+}
+
+function main() {
+    rock.addEventListener("click", function () {
+        game("rock");
+    })
+
+    paper.addEventListener("click", function () {
+        game("paper");
+    })
+
+    scissors.addEventListener("click", function () {
+        game("scissors");
+    })
+}
