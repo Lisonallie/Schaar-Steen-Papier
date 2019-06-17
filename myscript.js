@@ -18,18 +18,17 @@ function game(userChoice) {
         case "rockscissors":
         case "paperrock":
         case "scissorspaper":
-            wins()
+            win();
             break;
         case "rockpaper":
         case "paperscissors":
         case "scissorsrock":
-            
+            lose();
             break;
-
         case "rockrock":
         case "paperpaper":
         case "scissorsscissors":
-            
+            tie();
             break;
     }
 }
