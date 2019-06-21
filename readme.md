@@ -1,5 +1,7 @@
 ### Rock Paper Scissors
 
+The rock paper scissors game is playable [here](https://lisonallie.github.io/Schaar-Steen-Papier/).
+
 ##### Why did I make this game? 🗿🗿🗿
 This game was assigned to me as an exercise to learn JavaScript. 
 
