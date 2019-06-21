@@ -27,7 +27,7 @@ function lose(userChoice, computerChoice) {
 }
 
 function tie(userChoice, computerChoice) {
-    result.innerHTML = convertToWord(userChoice) + " beats " + convertToWord(computerChoice) + ". It's a draw.";
+    result.innerHTML = convertToWord(userChoice) + " ties " + convertToWord(computerChoice) + ". It's a draw.";
 }
 
 function game(userChoice) {
