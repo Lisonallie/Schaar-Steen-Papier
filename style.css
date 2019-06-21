@@ -58,3 +58,19 @@ header > h1 {
     margin: 10px 0;
     font-size: 25px;
 }
+#computer {
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(124, 78, 78);
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 1.5%;
+}
+#reset {
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(124, 78, 78);
+    padding: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: .1%;
+}
