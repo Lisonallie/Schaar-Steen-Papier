@@ -64,6 +64,10 @@ function main() {
     scissors.addEventListener("click", function () {
         game("scissors");
     })
+
+    reset.addEventListener("click", function () {
+        window.location.reload();
+    })
 }
 
 main();
